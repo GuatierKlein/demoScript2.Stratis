@@ -6,6 +6,9 @@ ACE
 
 ## Documentation
 
+!!! Tous les scripts necessite le dossier GUI.
+Le script radio necessite le dossier Sounds.
+
 ### Kit_select
 Dans initPlayerLocal.sqf mettez :
 ```
