@@ -155,18 +155,30 @@ A vous de tester tout les paramètres pour trouver les réglages qui vous convie
 #### Les paramètres du script :
 
 thisTrigger : ne pas modifier 
+
 spawn cap : nombre maximum de tracker qui peut spawn, NE PAS UTILISER POUR GERER LA DIFFICULTE, ceci sert uniquement pour les performance, idéalement, laisser à 100
+
 maxstate : état maximum que peut atteindre le script, plus la valeur est grande, plus le script enverra de reserve sur vous, une valeur plus petite rend le script plus facile
+
 	exemple : 5 = facile, 10 = moyen plus, 15 = difficile
 usecar : 
+
 	true : les tracker utiliseront des véhicules
+
 	false : pas de véhicules
+
 useBuilding : 
+
 	true : les tracker utiliseront les batiment pour cacher leur spawn (à n'utiliser que dans les grande ville avec bcp de batiment ouverts et avec des positions préconfigurées)
+
 	false : les tracker spawneront de manière normale sans se soucier des batiments 
+
 sentriesaroundplayer : 
+
 	true : le spawn des sentinelles de départ (état 0) se fait autour du joueur
+
 	false : le spawn des sentinelles de départ (état 0) se fait autour du déclencheur
+    
 
 ### Music
 à venir
