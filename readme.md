@@ -137,7 +137,10 @@ creer un déclencheur et le remplir ainsi
 on act
 ```
 [thisTrigger,spawn cap,maxstate,usecar,usebuilding,sentriesaroundplayer] spawn GDGM_fnc_initTrackerTrigger;
-exemple : [thisTrigger,100,10,true,true,false] spawn GDGM_fnc_initTrackerTrigger;
+```
+exemple : 
+```
+[thisTrigger,100,10,true,true,false] spawn GDGM_fnc_initTrackerTrigger;
 ```
 
 deact
