@@ -12,6 +12,17 @@ Dans initPlayerLocal.sqf mettez :
 #include "scripts\kit_select\core.sqf";
 ```
 
+Dans votre onPlayerRespawn.sqf mettez :
+```
+call BAR_fnc_applyKit;
+
+if(!isNil "BAR_enableCustomKitOnRespawn") then {
+	if(BAR_enableCustomKitOnRespawn) then {
+		player setUnitLoadout BAR_customKit;
+	};
+};
+```
+
 Creer un marker GDGM_camKit pour positionner la camera. Elle sera toujours orientée vers le Nord.
 
 Faites vos mannequins dans l'éditeur puis remplissez Scripts/kit_select/open_kitSelectMenu.sqf
@@ -178,7 +189,7 @@ sentriesaroundplayer :
 	true : le spawn des sentinelles de départ (état 0) se fait autour du joueur
 
 	false : le spawn des sentinelles de départ (état 0) se fait autour du déclencheur
-    
+
 
 ### Music
 à venir
